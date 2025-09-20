@@ -1,0 +1,93 @@
+================================================================================
+COWRIE HONEYPOT LOG ANALYSIS REPORT
+================================================================================
+Generated on: 2025-09-21 02:40:00
+Log file: logs/logs.txt
+
+SUMMARY STATISTICS
+----------------------------------------
+Total connections: 716
+Total login attempts: 492
+Successful logins: 254
+Failed logins: 238
+Commands executed: 4
+Unique IP addresses: 501
+Unique usernames: 63
+Unique passwords: 238
+
+TOP 15 IP ADDRESSES
+----------------------------------------
+ 1. 139.199.80.137  - 65 connections
+ 2. 58.11.9.27      - 10 connections
+ 3. 80.124.97.103   - 10 connections
+ 4. 51.158.205.203  - 6 connections
+ 5. 154.12.182.50   - 4 connections
+ 6. 207.244.233.165 - 4 connections
+ 7. 101.126.133.86  - 4 connections
+ 8. 65.20.193.23    - 3 connections
+ 9. 81.233.235.203  - 3 connections
+10. 73.95.112.29    - 3 connections
+11. 222.108.177.110 - 3 connections
+12. 180.218.102.225 - 3 connections
+13. 98.51.132.203   - 3 connections
+14. 218.60.58.18    - 3 connections
+15. 45.79.128.205   - 3 connections
+
+TOP 15 USERNAMES
+----------------------------------------
+ 1. root            - 261 attempts (254 successful, 7 failed)
+ 2. admin           - 47 attempts (0 successful, 47 failed)
+ 3. ubnt            - 18 attempts (0 successful, 18 failed)
+ 4. user            - 14 attempts (0 successful, 14 failed)
+ 5. nobody          - 11 attempts (0 successful, 11 failed)
+ 6. debian          - 10 attempts (0 successful, 10 failed)
+ 7. test            - 9 attempts (0 successful, 9 failed)
+ 8. default         - 9 attempts (0 successful, 9 failed)
+ 9. guest           - 9 attempts (0 successful, 9 failed)
+10. support         - 8 attempts (0 successful, 8 failed)
+11. config          - 7 attempts (0 successful, 7 failed)
+12. blank           - 7 attempts (0 successful, 7 failed)
+13. unknown         - 6 attempts (0 successful, 6 failed)
+14. operator        - 6 attempts (0 successful, 6 failed)
+15. Admin           - 5 attempts (0 successful, 5 failed)
+
+TOP 15 PASSWORDS
+----------------------------------------
+ 1. P@ssw0rd        - 8 attempts
+ 2. 123             - 8 attempts
+ 3. 123456          - 8 attempts
+ 4. password        - 7 attempts
+ 5. 1234567890      - 7 attempts
+ 6. 123123          - 7 attempts
+ 7. abc123          - 7 attempts
+ 8. 123321          - 7 attempts
+ 9. 987654321       - 6 attempts
+10. admin           - 6 attempts
+11. root            - 6 attempts
+12. 12345           - 6 attempts
+13. 123456789       - 6 attempts
+14. test123         - 5 attempts
+15. odroid          - 5 attempts
+
+TOP 15 COMMANDS EXECUTED
+----------------------------------------
+ 1. uname -s -m                                                     - 2 times
+ 2. echo "cat /proc/1/mounts && ls /proc/1/; curl2; ps aux; ps" ... - 1 times
+ 3. cat /proc/1/mounts && ls /proc/1/; curl2; ps aux; ps            - 1 times
+
+TIME-BASED ANALYSIS
+----------------------------------------
+First connection: 2025-08-27T00:01:46+0000
+Last connection:  2025-08-27T23:55:11+0000
+Duration: 0 days, 23 hours
+
+SECURITY INSIGHTS
+----------------------------------------
+Overall login success rate: 51.63%
+Most targeted username: root (261 attempts)
+Most common password: P@ssw0rd (8 attempts)
+Most active IP: 139.199.80.137 (65 connections)
+
+================================================================================
+END OF REPORT
+================================================================================
