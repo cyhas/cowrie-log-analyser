@@ -47,3 +47,6 @@ cowrie-logs-analyser/
 ```
 
 The analyzer will automatically look for `logs.txt` in the `logs/` directory if you don't specify a file path. Reports are saved to the `output/` directory with timestamps.
+
+## Sample Data
+This repository includes sample Cowrie logs and a sample analysis report so you can test the analyzer without setting up your own honeypot. Check out the `logs/` and `output/` directories to see examples of the expected input and output formats.
